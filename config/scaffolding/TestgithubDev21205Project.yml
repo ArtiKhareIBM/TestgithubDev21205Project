@@ -7,12 +7,6 @@ packages:
   gitUrl: https://github.com/ArtiKhareIBM
   gitUsername: ArtiKhareIBM
   gitBranch: main
-- name: currentdatepackagegitlab
-  version: "1.0"
-  gitServerName: srcCtrl_gitlab_Arti
-  gitUrl: https://gitlab.com/ArtiKhareGitlabnew
-  gitUsername: ArtiKhareGitlabnew
-  gitBranch: main
 services:
 - serviceName: project.testgithubdev21205.integrations:testpackagedelete
   packages:
