@@ -7,3 +7,24 @@ packages:
   gitUrl: https://github.com/ArtiKhareIBM
   gitUsername: ArtiKhareIBM
   gitBranch: main
+- name: currentdatepackage
+  version: "1.0"
+  gitServerName: srcCtrl_gitlab_Arti
+  gitUrl: https://gitlab.com/ArtiKhareGitlabnew
+  gitUsername: ArtiKhareGitlabnew
+  gitBranch: main
+services:
+- serviceName: project.testgithubdev21205.integrations:testfsdev2
+  packages:
+  - name: TestgithubDev21205Project
+    version: "1.0"
+  - name: currentdatepackage
+    version: "1.0"
+- serviceName: pub.flow:debugLog
+  packages:
+  - name: WmPublic
+    version: 11.1.0.0.2055
+- serviceName: pub.string:toLower
+  packages:
+  - name: WmPublic
+    version: 11.1.0.0.2055
