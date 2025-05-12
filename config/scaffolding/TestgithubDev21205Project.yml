@@ -7,9 +7,28 @@ packages:
   gitUrl: https://github.com/ArtiKhareIBM
   gitUsername: ArtiKhareIBM
   gitBranch: main
-- name: currentdatepackage
+- name: currentdatepackagegitlab
   version: "1.0"
   gitServerName: srcCtrl_gitlab_Arti
   gitUrl: https://gitlab.com/ArtiKhareGitlabnew
   gitUsername: ArtiKhareGitlabnew
   gitBranch: main
+services:
+- serviceName: project.testgithubdev21205.integrations:testpackagedelete
+  packages:
+  - name: TestgithubDev21205Project
+    version: "1.0"
+  - name: currentdatepackagegitlab
+    version: "1.0"
+  - name: WmJDBCAdapter
+    version: 10.3.0.0.34
+    wpmServer: https://packages.webmethods.io
+    wpmRegistry: licensed
+- serviceName: EmployeePayroll.services:calculateSalary
+  packages:
+  - name: currentdatepackagegitlab
+    version: "1.0"
+  - name: WmJDBCAdapter
+    version: 10.3.0.0.34
+    wpmServer: https://packages.webmethods.io
+    wpmRegistry: licensed
